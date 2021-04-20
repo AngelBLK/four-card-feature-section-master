@@ -31,10 +31,7 @@ body{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 1.99rem;
-    margin: 0 auto;
-    margin-top: -60px;
-    margin-bottom: 30px;
-    flex-direction: column;
+    margin: -60px auto 30px auto;
 }
 
 .card{
@@ -65,7 +62,7 @@ body{
 }
 
 .top{
-    width: 150%;
+    width: 145%;
     grid-column: 1 / - 1;
     grid-row: 1 / 2;
     margin-left: -5.6rem;
