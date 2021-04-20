@@ -27,15 +27,17 @@ body{
 .grid__container{
     width: 70%;
     display: grid;
-    grid-template-columns: repeat(3, 330px);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 1.99rem;
     margin: 0 auto;
-    margin-top: -20px;
+    margin-top: -60px;
     margin-bottom: 30px;
+    flex-direction: column;
 }
 
 .card{
+    width: 330px;
     height: 200px;
     padding: 30px;
     line-height: 1.6;
@@ -111,6 +113,7 @@ body{
     align-self: center;
     margin-top: 15rem;
     border-top: solid var(--Cyan);
+    
 }
 
 .calculator{
